@@ -1,0 +1,159 @@
+
+:root{
+    --darck-blue:  #363f5f;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:#f0f2f5;
+    font-family: "Poppins","sans-serif";
+
+}
+
+/* Header */
+header{
+    background: #2d4a22;
+    padding: 2rem 0 12rem;
+    text-align: center;
+}
+
+header h1#logo{
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.container{
+    width: min(90vw,800px);
+    margin: auto;
+
+}
+
+h2{
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    color: var(--darck-blue);
+    font-weight: normal;
+}
+
+/* Banlance ==================*/
+
+#balance{
+    margin-top: -8rem;
+    
+}
+
+#balance h2{
+    color: #fff;
+    margin-top: 0;
+}
+
+/* Cards ==================*/
+.card{
+    background: #fff;
+    padding: 1.5rem 2rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1.5rem;
+    color: var(--darck-blue);
+
+}
+
+.card h3{
+    font-weight: 1rem;
+    font-size: 1rem;
+}
+
+.card p{
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-top: 1rem;
+}
+
+.card.total {
+    background: #49aa26;
+    color: #fff;
+}
+.card.in p{
+    color: #09752d;
+}
+
+.card.out p{
+    color: #d13f05;
+}
+w
+/* Transactons > Table==============**/
+
+#transaction{
+
+}
+
+.teste{
+    color: #fff;
+    position:absolute;
+    border-radius: 0.4rem;
+    margin-top: -124px;
+    background: rgb(217, 231, 13);
+    padding-left: 010vw;
+    padding-right: 10vw;
+    text-align: center;
+}
+
+
+#data-table{
+    width: 100%;
+    border-spacing: 0 0.5rem;
+    color: #969cb3;
+}
+
+table td{
+    background: #fff;
+    padding: 1rem 2rem;
+}
+
+table thead th{
+    background: #fff;
+    padding: 1rem 2rem;
+    text-align: left;
+}
+
+table tbody  tr{
+    opacity: .6;
+}
+
+table tbody tr:hover{
+    opacity: 1;
+}
+
+table thead tr:first-child, table tbody tr td:first-child{
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+td.description{
+    color: var(--darck-blue);
+}
+
+td.income{
+    color: #12a454;
+}
+
+td.expense{
+    color: #e92929;
+}
+
+
+/* Footer */
+footer{
+    text-align: center;
+    padding: 4rem 2rem;
+    color: var(--darck-blue);
+    opacity: .6;
+}
+
+
+
+
+
